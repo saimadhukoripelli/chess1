@@ -1,0 +1,105 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+
+
+.container{
+    border: 2px solid red;
+    width: 820px;
+    /* height: 500px; */
+   
+}
+ .row1{
+    border: 1px solid green;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+ }
+ .row1>.box:nth-child(even){
+   background-color: rgb(188, 60, 14);
+
+ }
+   .box{
+    border: 1px solid blueviolet;
+    width: 100px;
+    height: 100px;
+   }
+   .row2{
+    border: 1px solid green;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+ }
+ .row2>.box:nth-child(odd){
+   background-color: rgb(188, 60, 14);
+ }
+ .row3{
+    border: 1px solid green;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+ }
+ .row3>.box:nth-child(even){
+   background-color: rgb(188, 60, 14);
+ }
+ .row4{
+    border: 1px solid green;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+ }
+ .row4>.box:nth-child(odd){
+   background-color: rgb(188, 60, 14);
+ }
+ .row5{
+    border: 1px solid green;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+ }
+ .row5>.box:nth-child(even){
+   background-color: rgb(188, 60, 14);
+ }
+ .row6{
+    border: 1px solid green;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+ }
+ .row6>.box:nth-child(odd){
+   background-color: rgb(188, 60, 14);
+ }
+ .row7{
+    border: 1px solid green;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+ }
+ .row7>.box:nth-child(even){
+   background-color: rgb(188, 60, 14);
+ }
+ .row8{
+    border: 1px solid green;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+ }
+ .row8>.box:nth-child(odd){
+   background-color: rgb(188, 60, 14);
+ }
+ img{
+  padding: 20px;
+
+ }
+ 
